@@ -12,7 +12,6 @@ import DynamicProject from "./project/dynamic";
 import Cer from "./certificate/Cer";
 import Dynamic from "./dynamic/Dynamic";
 import Volen from "./volen/Volen";
-import Other from "./other/Other";
 import Tool from "./tool/tool";
 export default function Home() {
   useEffect(() => {
