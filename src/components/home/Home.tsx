@@ -31,7 +31,6 @@ export default function Home() {
       <Project></Project>
       <Dynamic></Dynamic>
       <DynamicProject></DynamicProject>
-      <Other></Other>
       <Skill></Skill>
       <Tool></Tool>
       <Contact></Contact>

@@ -11,12 +11,6 @@ export default function Cer() {
       date: "August 2024",
     },
     {
-      image: "/images/cer2.jpg",
-      title: "Internship web frontend",
-      issuer: "IOS",
-      date: "September 2024",
-    },
-    {
       image: "/images/cer/cerit2.jpg",
       title: "Backend Course",
       issuer: "Master Id",
@@ -28,13 +22,13 @@ export default function Cer() {
     <section id="cer" className="pt-16 pb-16 bg-[#050709] text-gray-300">
       <SectionHeading>Certificates</SectionHeading>
 
-      <div className="w-[90%] md:w-[80%] mx-auto mt-16 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+      <div className="w-[90%] md:w-[60%] mx-auto mt-16 grid grid-cols-1 sm:grid-cols-2 gap-8 justify-center">
         {certificates.map((cert, index) => (
           <div
             key={index}
             className="group overflow-hidden rounded-lg border border-blue-900/50 hover:border-blue-400 transition-all duration-500 shadow-lg hover:shadow-xl hover:shadow-blue-900/20 relative"
           >
-            <div className="relative overflow-hidden p-3">
+            <div className="relative overflow-hidden p-3 text-center">
               <Image
                 src={cert.image}
                 alt={`Certificate ${index + 1}`}
