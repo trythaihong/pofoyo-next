@@ -47,7 +47,7 @@ export default function Hero() {
               <FaDownload className="w-4 h-4" />
             </Link>
             <Link
-              href="TryThaihongResume .pdf"
+              href="TryThaihongResume.pdf"
               download
               className="ml-3  inline-flex items-center space-x-2 bg-yellow-400 text-blue-950 font-semibold px-6 py-3 rounded-md hover:bg-yellow-300 transition-all duration-200 "
             >
