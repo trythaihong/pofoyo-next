@@ -1,5 +1,5 @@
 export const BaseInfo = {
-  name: "Try ThaiHong",
+  name: "Try ThaiHongs",
   position: "Web Developer",
   description:
     "I am a passionate and dedicated web developer focused on creating clean, modern, and responsive web applications. I love learning new technologies and building useful projects that make a difference.",
